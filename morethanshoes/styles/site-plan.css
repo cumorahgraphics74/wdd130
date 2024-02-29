@@ -41,8 +41,8 @@ img {
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  font-family: sans-serif;
+  color: #2B2D42;
 }
 h2 {
   text-align: center;
@@ -82,16 +82,16 @@ p {
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: #2B2D42;
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: #8D99AE;
 }
 .accent1 {
-  background-color: var(--accent1-color);
+  background-color: #EF233C;
 }
 .accent2{
-  background-color: var(--accent2-color);
+  background-color: #D90429;
 }
 
 p.colored {
@@ -100,10 +100,11 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: slateblue;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  color: solid white;
 }
 nav  {
   list-style-type: none;
@@ -115,14 +116,15 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  color: solid white;
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: white;
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  background-color: yellow;
 }
 
 .sitemap {
