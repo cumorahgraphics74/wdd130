@@ -123,7 +123,7 @@ nav a:link, nav a:visited {
   color: white;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
+  color: black;
   background-color: yellow;
 }
 
